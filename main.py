@@ -12,9 +12,9 @@ def game():
     game_state = True
     level = input("choose difficulty 'easy' or 'hard'")
     if level == "hard":
-        attempts = 5
+        attempts = 4
     elif level == "easy":
-        attempts = 10
+        attempts = 8
     else:
         print("nie ma takiego levelu ")
         sys.exit()
