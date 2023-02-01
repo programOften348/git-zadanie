@@ -7,14 +7,15 @@ print("Im thinking of a number of 1 to 100")
 attempts = 0
 
 
+
 def game():
     global attempts
     game_state = True
     level = input("choose difficulty 'easy' or 'hard'")
     if level == "hard":
-        attempts = 5
+        attempts = 2
     elif level == "easy":
-        attempts = 10
+        attempts = 3
     else:
         print("nie ma takiego levelu ")
         sys.exit()
